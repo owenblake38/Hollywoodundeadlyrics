@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kaktuszon.hollywoodundeadlyrics.MainActivity"
+    android:background="@drawable/dove">
+
+    <Button
+        android:id="@+id/btnSs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swan Songs"/>
+
+    <Button
+        android:id="@+id/btnAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="American Tragedy" />
+
+    <Button
+        android:id="@+id/btnNftu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes from the underground" />
+
+    <Button
+        android:id="@+id/btnDotd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day of the dead" />
+</LinearLayout>
